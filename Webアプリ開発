@@ -63,6 +63,7 @@ V:View、入力・出力など表示する役割
 C:Controller、上記２つをコントロールする役割
 
 MVCモデルを実際作成しました。
+プロジェクト名：springmvcmodel、mvcviewsample
 
 第六章　テンプレートエンジン
 Spring Bootでは「Thymeleaf」というテンプレートエンジンが推奨される
@@ -70,7 +71,11 @@ Thymeleaf:
 ①　HTMLベースのテンプレートエンジンで、決められた式を記述することで、ページを動的に組み立てくれる
 ②最終的な出力をイメージしながらビューを作成できる
 ※Thymeleafってなかなかいいですね。フロントエンド側の開発が楽になりそう。
+こちらのサイトでまとめられた内容とほぼ同じため、省略する
+https://camp.trainocate.co.jp/magazine/about-thymeleaf/
 
+プログラムを作成しました。
+プロジェクト名：thymeleafsample
 
 第七章　テンプリクエストパラメータ
 
