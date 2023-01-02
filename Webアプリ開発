@@ -57,10 +57,15 @@ AOPの固定用語
 https://amateur-engineer.com/postgresql-mac-install/
 
 第五章　MVCモデル
-M:Model、V:View、C:Controller
+M:Model、業務処理内容を記述する役割
+V:View、入力・出力など表示する役割
+C:Controller、上記２つをコントロールする役割
 
+MVCモデルを実際作成しました。
 
 第六章　テンプレートエンジン
+
+
 
 第七章　テンプリクエストパラメータ
 
