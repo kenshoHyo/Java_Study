@@ -76,10 +76,16 @@ https://camp.trainocate.co.jp/magazine/about-thymeleaf/
 
 プログラムを作成しました。
 プロジェクト名：thymeleafsample
+TODO:プロジェクトに全パターンを追加する
 
 第七章　テンプリクエストパラメータ
+特にまとめる知識がなく、プログラムを作成しながら理解していく感じ
+プログラムを作成しました。
+プロジェクト名：requestparamsample、pathvaliablesample
 
 第八章　バリデーション機能
+
+
 
 第九章　アプリを作成する
 
