@@ -52,15 +52,13 @@ AOPの固定用語
 ・Interceptor：処理の制御をインターセプトするための仕組みのこと
 ・Target：Adviceが挿入される対象のこと
 
-
-
-
-
 第四章　データベースを操作する
-
-
+こちらのサイトを参考にして、postgresqlのインストールから、テーブルにデータを挿入までできました。
+https://amateur-engineer.com/postgresql-mac-install/
 
 第五章　MVCモデル
+M:Model、V:View、C:Controller
+
 
 第六章　テンプレートエンジン
 
