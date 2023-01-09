@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>入力画面</title>
+</head>
+<body>
+    <div>
+        <h3><a th:href="@{/function/1}">機能1</a>></h3>
+        <h3><a th:href="@{/function/2}">機能2</a>></h3>
+        <h3><a th:href="@{/function/3}">機能3</a>></h3>
+    </div>
+    <form th:action="@{/send}" method="POST">
+        <input type="submit" value="ボタンA" name="a">
+        <input type="submit" value="ボタンB" name="b">
+        <input type="submit" value="ボタンC" name="c">
+    </form>
+</body>
+</html>
