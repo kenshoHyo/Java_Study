@@ -1,0 +1,15 @@
+package com.example.requestparamsample.form;
+
+import java.time.LocalDate;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import lombok.Data;
+
+@Data
+public class Form {
+    private String name;
+    private int age;
+    @DateTimeFormat(iso=DateTimeFormat.ISO.DATE)
+    private LocalDate birth;
+}
