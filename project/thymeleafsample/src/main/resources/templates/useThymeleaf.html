@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hello Thymeleaf</title>
+</head>
+<body>
+<h1 th:text="'hello world'">表示される部分</h1>
+<h1>こんにちは！！！[[${name}]]さん</h1>
+<h1 th:text="'明日は、' + '晴れ' + 'です。'">表示される部分</h1>
+<div th:with="a=1,b=2">
+    <span th:text="|${a} + ${b} = ${a+b}|"></span>
+</div>
+<span th:text="1 > 10"></span>
+<span th:text="1 < 10"></span>
+<span th:text="1 >= 10"></span>
+<span th:text="1 <= 10"></span>
+<span th:text="1 == 10"></span>
+<span th:text="1 != 10"></span>
+<span th:text="太郎 == 太郎"></span>
+<span th:text="太郎 != 太郎"></span>
+</body>
+</html>
